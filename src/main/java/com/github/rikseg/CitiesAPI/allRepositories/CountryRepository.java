@@ -1,4 +1,4 @@
-package com.github.rikseg.CitiesAPI.repository;
+package com.github.rikseg.CitiesAPI.allRepositories;
 
 import com.github.rikseg.CitiesAPI.countries.Country;
 import org.springframework.data.jpa.repository.JpaRepository;
