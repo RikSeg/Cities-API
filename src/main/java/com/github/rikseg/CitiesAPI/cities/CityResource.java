@@ -18,7 +18,6 @@ public class CityResource {
 
     @GetMapping
     public Page<City> cities(Pageable page) {
-
         return repository.findAll(page);
     }
 }
