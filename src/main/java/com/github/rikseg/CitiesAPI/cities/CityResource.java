@@ -1,7 +1,7 @@
-package com.github.rikseg.CitiesAPI.states;
+package com.github.rikseg.CitiesAPI.cities;
 
 
-import com.github.rikseg.CitiesAPI.allRepositories.StateRepository;
+import com.github.rikseg.CitiesAPI.allRepositories.CityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -9,19 +9,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
 
 @RestController
-@RequestMapping("/states")
-public class StateResource {
-
+@RequestMapping("/cities")
+public class CityResource {
     @Autowired
-    private StateRepository repository;
+    private CityRepository repository;
 
     @GetMapping
-    public Page<State> states(Pageable page) {
+    public Page<City> cities(Pageable page) {
 
         return repository.findAll(page);
     }
-
 }
