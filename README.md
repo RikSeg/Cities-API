@@ -9,7 +9,7 @@
 
 ### Features
 - GET requests with pageable return from all tables on database
-- Services that compares two cities returning in Miles(using cube extension from Postgres) or in Meters(using earthdistance extension from Postgres)
+- Services that calcuates the distance between two cities returning in Miles(using cube extension from Postgres) or in Meters(using earthdistance extension from Postgres)
 
 
 
