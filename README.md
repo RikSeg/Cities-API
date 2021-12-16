@@ -13,7 +13,7 @@
 
 
 
-### Database coding and population
+### Database SQL coding and population
 * [Data](https://github.com/chinnonsantos/sql-paises-estados-cidades/tree/master/PostgreSQL)
 
 
