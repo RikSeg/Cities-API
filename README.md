@@ -5,7 +5,7 @@
 - Java (as Back-end)
 - Gradle (for dependencies management)
 - Spring Frameworks (easy application building and integration with DB and Website)
-- PostgreSQL(local hosted Database)
+- PostgreSQL 14(locally hosted Database)
 
 ### Features
 - GET requests with pageable return from all tables on database
